@@ -4,6 +4,7 @@
 
 **Technology Used** : Javascript, Tensorflow.js
 
+#### Now Added Download button to download segments of object detected as a zip file.
 
 #### Results
 
