@@ -63,7 +63,7 @@ function imgThresh() {
     let dst = new cv.Mat();
     let mat1 = new cv.Mat();
     cv.cvtColor(mat, mat1, cv.COLOR_RGBA2GRAY, 0);
-    cv.threshold(mat, dst, 177, 200, cv.THRESH_BINARY);
+    cv.threshold(mat1, dst, 177, 200, cv.THRESH_BINARY);
     cv.imshow('canvasOutput', dst);
     dst.delete();
 }
